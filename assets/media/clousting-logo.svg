@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" fill="none">
+  <defs>
+    <linearGradient id="cloustingGradient" x1="12" y1="12" x2="108" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6fa8ff"/>
+      <stop offset="1" stop-color="#123a7a"/>
+    </linearGradient>
+  </defs>
+  <path d="M82.5 32.2c-.9-13.4-11.9-24-26-24-12.1 0-22.3 8.4-25.1 19.8C19.6 28.7 10 38.1 10 49.6 10 61.8 20.2 72 32.4 72H86c12.4 0 22.5-10.1 22.5-22.5 0-11.5-8.7-21.1-20-22.3z" stroke="url(#cloustingGradient)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39 52h28" stroke="url(#cloustingGradient)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39 64h47" stroke="url(#cloustingGradient)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="portfolioBg" x1="0" y1="0" x2="1180" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1E3D"/>
+      <stop offset="100%" stop-color="#2C7AE5"/>
+    </linearGradient>
+    <radialGradient id="portfolioGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 160) rotate(120) scale(620 420)">
+      <stop offset="0%" stop-color="#4FB1FF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#4FB1FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" rx="48" fill="url(#portfolioBg)"/>
+  <rect width="1280" height="720" rx="48" fill="url(#portfolioGlow)"/>
+  <rect x="220" y="150" width="840" height="420" rx="40" fill="#112B5C" stroke="#4FB1FF" stroke-width="4"/>
+  <rect x="280" y="210" width="260" height="260" rx="32" fill="#F7C948"/>
+  <rect x="580" y="204" width="380" height="56" rx="24" fill="#1F64D1"/>
+  <rect x="580" y="282" width="320" height="20" rx="10" fill="#203C7A"/>
+  <rect x="580" y="318" width="320" height="20" rx="10" fill="#203C7A" opacity="0.8"/>
+  <rect x="580" y="354" width="320" height="20" rx="10" fill="#203C7A" opacity="0.65"/>
+  <rect x="580" y="402" width="220" height="48" rx="18" fill="#F7C948"/>
+  <rect x="820" y="402" width="140" height="48" rx="18" fill="#1F64D1"/>
+  <g opacity="0.35" stroke="#4FB1FF" stroke-width="4" stroke-linecap="round">
+    <path d="M260 180H1020"/>
+    <path d="M260 216H1020"/>
+    <path d="M260 252H1020"/>
+    <path d="M260 288H1020"/>
+  </g>
+</svg>

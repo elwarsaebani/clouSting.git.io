@@ -1,0 +1,34 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="agencyBg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#102046"/>
+      <stop offset="100%" stop-color="#1E4F9A"/>
+    </linearGradient>
+    <linearGradient id="agencyCard" x1="240" y1="144" x2="880" y2="576" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F7C948"/>
+      <stop offset="100%" stop-color="#FF8A4C"/>
+    </linearGradient>
+    <linearGradient id="agencyHighlight" x1="420" y1="210" x2="1020" y2="510" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4FB1FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4FB1FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="48" fill="url(#agencyBg)"/>
+  <g opacity="0.18">
+    <circle cx="180" cy="90" r="140" fill="#4FB1FF"/>
+    <circle cx="1080" cy="630" r="190" fill="#F7C948"/>
+  </g>
+  <rect x="200" y="160" width="880" height="400" rx="40" fill="#102C5A" stroke="#4FB1FF" stroke-width="4"/>
+  <rect x="240" y="204" width="360" height="272" rx="32" fill="#142F63" stroke="#4FB1FF" stroke-width="4"/>
+  <rect x="272" y="240" width="140" height="140" rx="28" fill="#1F64D1"/>
+  <rect x="428" y="240" width="140" height="140" rx="28" fill="#F7C948"/>
+  <rect x="240" y="432" width="360" height="68" rx="28" fill="#1F64D1" opacity="0.7"/>
+  <rect x="632" y="216" width="376" height="52" rx="26" fill="#1F64D1"/>
+  <rect x="632" y="288" width="296" height="22" rx="11" fill="#203D79"/>
+  <rect x="632" y="324" width="296" height="22" rx="11" fill="#203D79" opacity="0.8"/>
+  <rect x="632" y="360" width="220" height="22" rx="11" fill="#203D79" opacity="0.6"/>
+  <rect x="632" y="408" width="320" height="96" rx="26" fill="#132B63"/>
+  <rect x="664" y="440" width="256" height="32" rx="16" fill="#F7C948"/>
+  <rect x="664" y="486" width="176" height="24" rx="12" fill="#1F64D1"/>
+  <path d="M240 204H852C875.196 204 894 222.804 894 246V442C894 465.196 875.196 484 852 484H240" stroke="url(#agencyHighlight)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+</svg>
