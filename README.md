@@ -39,28 +39,6 @@ clousting/
     └── index.php
 ```
 
-## Persiapan Database
-1. Import file `database/clousting_db.sql` ke dalam MySQL Anda.
-2. Gunakan kredensial default:
-   - Admin: `admin@clousting.id` / `admin123`
-   - Customer: `budi@pelanggan.id` / `customer123`
-
-### Modul Sistem Informasi Posyandu (Baru)
-Proyek ini juga menyertakan prototipe sistem informasi Posyandu dengan peran Super Admin, Admin Puskesmas, Bidan, dan Kader untuk mendukung digitalisasi layanan Posyandu.
-
-1. Import file `SIPosyandu/database/posyandu_db.sql` untuk membuat skema dan data awal Posyandu.
-2. Kredensial contoh:
-   - Super Admin: `super@posyandu.id` / `password123`
-   - Admin Puskesmas: `admin@puskesmas.id` / `password123`
-   - Bidan: `bidan@posyandu.id` / `password123`
-   - Kader: `kader@posyandu.id` / `password123`
-3. Jalankan server PHP terpisah dengan root direktori `SIPosyandu/public/` (mis. `php -S localhost:8001 -t SIPosyandu/public`).
-4. Akses antarmuka Posyandu melalui URL server tersebut (contoh: `http://localhost:8001`).
-5. Fitur utama meliputi pendaftaran warga, pencatatan tumbuh kembang balita, jadwal & catatan imunisasi, reminder jadwal, dashboard statistik gizi, serta unduhan laporan PDF bulanan.
-
-## Konfigurasi
-Sesuaikan koneksi database pada `config/config.php` jika diperlukan. File ini juga akan membuat folder `public/uploads/projects` secara otomatis untuk menyimpan arsip project yang diunggah customer. Pastikan server memiliki izin tulis pada direktori tersebut.
-
 ### Midtrans Snap API
 - Isi `MIDTRANS_SERVER_KEY` dan `MIDTRANS_CLIENT_KEY` di `config/config.php` atau melalui environment variable `MIDTRANS_SERVER_KEY`, `MIDTRANS_CLIENT_KEY`, serta `MIDTRANS_IS_PRODUCTION` (default `false`).
 - Endpoint notifikasi Midtrans mengarah ke `/payment/notify.php`. Pastikan URL ini dapat diakses publik (gunakan fitur `Ngrok` atau domain hosting Anda untuk pengujian Sandbox).
@@ -88,4 +66,3 @@ Kemudian akses `http://localhost:8000` di browser.
 3. Setelah pembayaran selesai, Midtrans mengirimkan callback ke `/payment/notify.php`. Endpoint ini memverifikasi signature, memperbarui tabel `transaksi`, dan mengubah status pesanan menjadi `paid` atau `failed` sesuai status Midtrans.
 4. Admin dapat memonitor seluruh transaksi melalui `/admin/pembayaran.php`, sementara customer melihat status pembayaran terbaru langsung di dashboard.
 >>>>>>> 2c9bef9e52f7e19bcef2f673ef0f4d40b20457c0
-# clouSting.git.io
